@@ -1,6 +1,7 @@
 @Login
 Feature: US001 Sauce Demo Login
 
+
   @TC01 @smoke
   Scenario: TC01 Gecerli kullanici girisi
     Given kullanici login sayfasindadir

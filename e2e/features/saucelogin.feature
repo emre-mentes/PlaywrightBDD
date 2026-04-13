@@ -19,6 +19,7 @@ Feature: US001 Sauce Demo Login
     And login butonuna tiklar
     Then urunler sayfasi acilmalidir
 
+
   @TC03 @smoke
   Scenario:TC03 Gecerli kullanici girisi
     Given kullanici login sayfasindadir

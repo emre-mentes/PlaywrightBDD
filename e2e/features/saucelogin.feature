@@ -9,8 +9,6 @@ Feature: US001 Sauce Demo Login
     And login butonuna tiklar
     Then urunler sayfasi acilmalidir
 
-
-
   @TC02
   Scenario:TC02 Gecerli kullanici girisi
     Given kullanici login sayfasindadir
@@ -18,7 +16,6 @@ Feature: US001 Sauce Demo Login
     And sifre "secret_sauce" girer
     And login butonuna tiklar
     Then urunler sayfasi acilmalidir
-
 
   @TC03 @smoke
   Scenario:TC03 Gecerli kullanici girisi

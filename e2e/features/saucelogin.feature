@@ -10,6 +10,7 @@ Feature: US001 Sauce Demo Login
     Then urunler sayfasi acilmalidir
 
 
+
   @TC02
   Scenario:TC02 Gecerli kullanici girisi
     Given kullanici login sayfasindadir

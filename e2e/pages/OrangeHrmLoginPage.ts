@@ -3,8 +3,6 @@ import { expect, Page } from "@playwright/test";
 export class OrangeHrmLoginPage {
   constructor(private page: Page) {}
 
-
-  
   async goto(): Promise<void> {
     await this.page.goto(
       "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
